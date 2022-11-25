@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raptors Who Code</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">RWC</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Workshops</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Join Our Club</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">The BIGGEST coding club at <span>Montgomery College</span></h1>
+        <p class="hero__description">Attend our club events!</p>
+        <button class="main__btn"><a href="#">Explore</a></button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>Welcome to RWC.</h1>
+          <h2>We love to code.</h2>
+          <p>As the Rockville campus computer science club and We aim to provide our members with a friendly space to learn and have more hands-on experiences in computer science. Being a member of RWC it is totally a non pressure experience: you are not required to be a computer-related major or to have exceptional coding skill. Our goal is just to help our members build their portfolios by participating in little group projects, making social connections, holding tech-related talks, attending hackathons (virtually), and providing a positive, friendly environment for everyone to learn.
+            <br>
+            <br>
+            Something new about our club is that in addition to being an MC club, we are also an ACM (Association for Computing Machinery) student chapter and as an effect, we benefit to access to special guest speakers and the possibilities to attend some seminars. We will get you to know more about our ACM affiliation throughout the semester and its benefits.
+            </p>
+          <button class="main__btn"><a href="#">Join our Discord!</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>Our Beginner-Friendly Workshops</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>HTML/CSS</h2>
+          <p>Web Design</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Git/GitHub</h2>
+          <p>Keeping track of your code!</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>JavaScript</h2>
+          <p>Making your website move!</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Python</h2>
+          <p>Simple Language to learn!</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Join Our Club</h1>
+          <h2>Join Today</h2>
+          <p>See what makes us different</p>
+          <button class="main__btn"><a href="#">Become a member!</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">Who we are</a> <a href="/">Coding Workshops</a>
+            <a href="/">Technical Discussions</a> <a href="/">Guest Speaker Talks</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">RWC</a>
+          </div>
+          <p class="website__rights">Raptors Who Code 2022-2023</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
