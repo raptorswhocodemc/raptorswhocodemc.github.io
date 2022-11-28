@@ -1,6 +1,8 @@
 # RWC-Website
 RWC Website 2022-2023: http://raptorswhocodemc.github.io/
 
+<img src="RWC Logo.png" alt="RWC Logo" style="width:250px;height:250px;">
+
 # Our Mission
 Raptors Who Code is the club for anyone in a tech field--or anyone interested in one--to dive deeper into the world of programming and computers. 
 
