@@ -13,6 +13,12 @@ Raptors Who Code (RWC) is an ACM Student Chapter that provides resources and inf
 It is a great way to gain access to publications that can help you get internships and jobs.
 Student Membership is optional, but if you do decide to become a member, it will cost $20 a year, and will transfer if you go to another school. 
 
+# Meeting Information
+Weekly Club Meetings: 
+-- Fridays from 4:30-5:30pm (On Zoom) -- 
+Please join our Discord for all club info!
+Discord: https://discord.gg/U7nYwkkjFn
+
 
 # Website Information
 Simple website created using HTML, CSS &amp; Javascript with smooth scroll effect. Original template made by @Brian Design https://youtu.be/3-2Pj5hxwrw
